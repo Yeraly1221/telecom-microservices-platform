@@ -11,7 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>telecom-microservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
+    <packaging>pom</packaging>
+    <name/>
 	<description/>
 	<url/>
 	<licenses>
@@ -20,7 +21,18 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>auth-service</module>
+	    <module>user-service</module>
+	    <module>sim_card-service</module>
+	    <module>sim_card-service</module>
+	    <module>billing-service</module>
+	    <module>payment-service</module>
+	    <module>reporting-service</module>
+	    <module>api-gateway</module>
+	    <module>frontend</module>
+	</modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
