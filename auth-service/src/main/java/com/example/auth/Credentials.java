@@ -30,7 +30,7 @@ public class Credentials implements UserDetails {
     @Column(nullable = false)
     private String password;
 
-    private Boolean enabled;
+    private Boolean enabled = false;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
