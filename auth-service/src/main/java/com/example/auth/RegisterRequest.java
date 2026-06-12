@@ -1,4 +1,4 @@
 package com.example.auth;
 
-public class RegisterRequest {
+public record RegisterRequest(String email, String password) {
 }
