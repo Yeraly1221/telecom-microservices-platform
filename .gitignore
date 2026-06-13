@@ -34,3 +34,4 @@ build/
 
 
 *.sql
+!**/src/main/resources/db/migration/*.sql

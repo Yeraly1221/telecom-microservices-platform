@@ -1,0 +1,2 @@
+-- Initial Flyway migration for billing-service.
+-- Add billing tables here when JPA entities are introduced.

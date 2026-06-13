@@ -1,0 +1,2 @@
+-- Initial Flyway migration for payment-service.
+-- Add payment tables here when JPA entities are introduced.

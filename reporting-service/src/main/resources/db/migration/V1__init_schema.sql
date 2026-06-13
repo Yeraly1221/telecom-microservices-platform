@@ -1,0 +1,2 @@
+-- Initial Flyway migration for reporting-service.
+-- Add reporting tables here when JPA entities are introduced.
