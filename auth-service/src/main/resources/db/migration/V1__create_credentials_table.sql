@@ -2,6 +2,6 @@ CREATE TABLE credentials (
     id BIGSERIAL PRIMARY KEY,
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
-    enabled BOOLEAN,
+    enabled BOOLEAN NOT NULL DEFAULT FALSE,
     role VARCHAR(255) NOT NULL
 );

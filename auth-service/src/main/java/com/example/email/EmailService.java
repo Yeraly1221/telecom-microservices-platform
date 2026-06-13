@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -20,7 +19,7 @@ public class EmailService implements EmailSender {
     private final JavaMailSender mailSender;
 
 
-    @Value("${mail.username}")
+    @Value("${spring.mail.username}")
     private String fromEmail;
 
 

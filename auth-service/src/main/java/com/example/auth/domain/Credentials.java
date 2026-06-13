@@ -1,4 +1,4 @@
-package com.example.auth;
+package com.example.auth.domain;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -30,6 +30,8 @@ public class Credentials implements UserDetails {
     @Column(nullable = false)
     private String password;
 
+    @Builder.Default
+    @Column(nullable = false)
     private Boolean enabled = false;
 
     @Enumerated(EnumType.STRING)

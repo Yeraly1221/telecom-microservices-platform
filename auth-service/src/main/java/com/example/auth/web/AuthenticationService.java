@@ -1,16 +1,17 @@
-package com.example.auth;
+package com.example.auth.web;
 
+import com.example.auth.domain.Credentials;
+import com.example.auth.domain.CredentialsRepository;
+import com.example.auth.domain.Role;
 import com.example.configuration.JwtService;
 import com.example.email.EmailSender;
 import com.example.exception.*;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.CustomAutowireConfigurer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.util.HtmlUtils;
 
 @Service
 @RequiredArgsConstructor
