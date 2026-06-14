@@ -1,10 +1,9 @@
-package com.example.auth.application;
+package com.example.auth.web;
 
 import com.example.auth.domain.Credentials;
+import com.example.auth.domain.CredentialsRepository;
 import com.example.auth.domain.Role;
-import com.example.example.auth.exception.*;
-import example.example.auth.exception.*;
-import com.example.auth.infrastructure.CredentialsRepository;
+import com.example.auth.email.EmailSender;
 import com.example.auth.web.dto.AuthenticationRequest;
 import com.example.auth.web.dto.AuthenticationResponse;
 import com.example.auth.web.dto.RegisterRequest;

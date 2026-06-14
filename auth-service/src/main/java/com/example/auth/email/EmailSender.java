@@ -1,4 +1,4 @@
-package com.example.auth.application;
+package com.example.auth.email;
 
 public interface EmailSender {
     void send(String to, String email);

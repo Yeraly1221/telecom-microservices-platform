@@ -1,6 +1,5 @@
-package com.example.auth.infrastructure;
+package com.example.auth.email;
 
-import com.example.auth.application.EmailSender;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;

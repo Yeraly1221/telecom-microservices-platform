@@ -1,6 +1,5 @@
-package com.example.auth.infrastructure;
+package com.example.auth.domain;
 
-import com.example.auth.domain.Credentials;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,7 +1,6 @@
 package com.example.auth.web;
 
 
-import com.example.auth.application.AuthenticationService;
 import com.example.auth.web.dto.AuthenticationRequest;
 import com.example.auth.web.dto.AuthenticationResponse;
 import com.example.auth.web.dto.RegisterRequest;

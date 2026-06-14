@@ -1,6 +1,6 @@
 package com.example.auth.config;
 
-import com.example.auth.infrastructure.CredentialsRepository;
+import com.example.auth.domain.CredentialsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
